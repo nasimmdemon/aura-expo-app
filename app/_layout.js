@@ -1,9 +1,6 @@
-import { StyleSheet, Text, View } from "react-native";
-import React from "react";
 import { Slot } from "expo-router";
 
-const RootLayout = () => {
-  return <Slot />;
-};
+// Import your global CSS file
+import "../global.css";
 
-export default RootLayout;
+export default Slot;
